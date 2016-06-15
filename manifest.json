@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Small Notes",
+    "version": "1.0",
+    "description": "Allow users to write small notes in browser.",
+    "icons": {
+        "32": "icons/notes.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "applications": {
+        "gecko": {
+            "id": "lucaschew95@hotmail.com"
+        }
+    },
+    "browser_action": {
+        "default_icon": {
+            "32": "icons/notes.png"
+        },
+        "default_title": "Small Notes",
+        "default_popup": "notes.html"
+    }
+} 
